@@ -1,0 +1,58 @@
+name: wb_quality
+description: Autonomous Weighbridge System - Quality Module.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.2.1+11
+# notes : perbaikan halaman input api config 2
+
+# Artinya:
+
+# Ini versi 1.0.1 (patch kedua dari versi 1.0.0)
+
+# Build ke-2 dari aplikasi kamu
+
+# flutter build apk --release
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+# Dependensi yang ditambahkan untuk menyimpan konfigurasi API secara lokal
+  shared_preferences: ^2.2.3
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dropdown_search: ^5.0.5
+  google_fonts: ^6.2.1
+  http: ^1.4.0
+  image_picker: ^1.1.2
+  intl: ^0.20.2
+  path_provider: ^2.0.13
+  convex_bottom_bar: ^3.2.0
+  # package_info_plus ditambahkan untuk konsistensi dengan proyek Sortase sebelumnya
+  package_info_plus: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^2.0.0
+
+dependency_overrides:
+  async: ^2.13.0
+  material_color_utilities: ^0.12.0
+  vector_math: ^2.1.5
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo-kpn-1.png" # Path ke gambar logo Anda (Konsisten)
+  adaptive_icon_background: "#FFFFFF" # (Konsisten)
+  adaptive_icon_foreground: null # (Konsisten)
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

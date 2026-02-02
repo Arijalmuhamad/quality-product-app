@@ -1,0 +1,9 @@
+{
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "dart.lineLength": 80,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "Dart-Code.dart-code"
+}

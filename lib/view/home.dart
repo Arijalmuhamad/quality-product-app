@@ -1,4 +1,6 @@
 // ... (Baris-baris import)
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:wb_quality/models/transfer_terima/reportPerPart.dart';
@@ -874,6 +876,7 @@ class _HomeMenuState extends State<HomeMenu> {
                                 ),
                               ),
                             ),
+                          const SizedBox(height: 30),
 
                           // =======================================================
                           // BAGIAN TRANSFER TERIMA (TT)
@@ -890,7 +893,7 @@ class _HomeMenuState extends State<HomeMenu> {
                                   children: [
                                     const Row(
                                       children: [
-                                        Icon(Icons.move_down_rounded),
+                                        Icon(Icons.move_to_inbox_rounded),
                                         SizedBox(width: 10),
                                         Text(
                                           'Transfer Terima',

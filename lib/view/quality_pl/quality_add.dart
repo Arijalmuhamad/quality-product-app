@@ -774,7 +774,7 @@ class _AddDataQualityPLState extends State<AddDataQualityPL> {
                                             _isCheckedCamera = value!;
                                             _isCamera = value ? 'T' : 'F';
                                             // Reset gambar jika checkbox dimatikan
-                                            if (!value!) {
+                                            if (!value) {
                                               _image1 = null;
                                               _image2 = null;
                                               _image3 = null;

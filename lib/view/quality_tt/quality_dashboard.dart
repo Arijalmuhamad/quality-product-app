@@ -192,7 +192,7 @@ class _QualityDashboardTTState extends State<QualityDashboardTT> {
               return ItemList(list: snapshot.data!);
             } else {
               return const Center(
-                child: Text("Tidak ada data Quality TK untuk hari ini."),
+                child: Text("Tidak ada data Quality TT untuk hari ini."),
               );
             }
           },
